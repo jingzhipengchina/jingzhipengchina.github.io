@@ -145,6 +145,61 @@
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2020-02-11T03:43:46.904Z">2020-02-11</time>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    5 minutes read (About 679 words)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="/2020/02/11/Hexo博客搭建/">Hexo博客搭建</a>
+            
+        </h1>
+        <div class="content">
+            <h1 id="关于Hexo博客搭建"><a href="#关于Hexo博客搭建" class="headerlink" title="关于Hexo博客搭建"></a>关于Hexo博客搭建</h1><p>Win10下的搭建</p>
+<h2 id="Node和Git的安装"><a href="#Node和Git的安装" class="headerlink" title="Node和Git的安装"></a>Node和Git的安装</h2><p>首先需要下载相关的软件环境<br>Node.js和Git这两个工具</p>
+<p>Node.js网址（Tips：下载可能有点慢，应该是不需要翻墙的）<br><a href="https://nodejs.org" target="_blank" rel="noopener">https://nodejs.org</a><br>安装步骤非常简单，一直next，下一步就可以了，默认安装就行，当然，也可以自己选择安装位置，对后续没影响</p>
+<p>Git<br><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a><br>然后我们选择windows版本的下载安装<br>也是一直点下一步，安装官方默认的来就行，<br>tips：这个Git Bash下载下来就相当于Linux中的终端窗口了，以后我们就用这个来打开终端，进行各种编辑和上传工作。</p>
+<h2 id="Hexo的安装"><a href="#Hexo的安装" class="headerlink" title="Hexo的安装"></a>Hexo的安装</h2><p>新建一个文件夹，比如我建了 ==myblog==<br>打开你的文件夹，然后在空白处点鼠标的右键，选择 ==Git Bash Here==</p>
+<p>打开之后看看 ==node，npm==是否安装成功，没有成功的就重新安装node。<br>使用的命令分别是<br>node -v以及npm -v<br>安装成功的，他会弹出对应的版本号</p>
+<p>针对npm在国内使用起来比较慢，我们需要使用国内镜像的npm工具cnpm来替代<br>安装cnpm提高速度，以后下载什么东西也都用cnpm<br>在上面终端继续输入<br>npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a><br>测试cnpm-成功！</p>
+<p>==完成之后安装hexo==<br>cnpm install -g hexo-cli</p>
+<p>验证是否安装成功<br>hexo -v<br>出现,说明成功</p>
+<p>首先看看当前路径命令pwd<br>结果为<br>Administrator@ZEPLYN WINDOW MINGW64 ~/d<br>然后我们<br>运行命令，这步是关键，主要是建立整个项目，这里我的文件夹名字是myblog，文件夹位置是桌面上。<br>hexo init</p>
+<h2 id="运行测试"><a href="#运行测试" class="headerlink" title="运行测试"></a>运行测试</h2><p>常用的三个命令<br>hexo clean 用来清理缓存文件<br>hexo g 生成文件<br>hexo s 运行本地服务器<br>hexo d 上传至服务器</p>
+<p>在输入hexo s后<br>就可以在本地浏览器输入 localhost：4000 查看<br>到此本地环境搭建完成</p>
+<h2 id="部署云端"><a href="#部署云端" class="headerlink" title="部署云端"></a>部署云端</h2><p>在介绍了在本地搭建一个服务器并且成功运行测试，这次我们把它部署到云端，让别人也可以访问我们的网站，<br>我使用的是部署到github上，但是由于github服务器在国外，所以可能响应的速度有点慢<br>国内的话，有Coding可以替代,他已经和腾讯云合作了，速度应该还不错</p>
+<p>此处以github为例</p>
+<hr>
+
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <div class="card">
+    
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
                 <time class="level-item has-text-grey" datetime="2020-01-15T14:25:16.133Z">2020-01-15</time>
                 
                 
@@ -615,7 +670,7 @@
                         Posts
                     </p>
                     <p class="title has-text-weight-normal">
-                        9
+                        10
                     </p>
                 </div>
             </div>
@@ -761,6 +816,25 @@
         
         <article class="media">
             
+            <a href="/2020/02/11/Hexo博客搭建/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Hexo博客搭建">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-02-11T03:43:46.904Z">2020-02-11</time></div>
+                    <a href="/2020/02/11/Hexo博客搭建/" class="has-link-black-ter is-size-6">Hexo博客搭建</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
             <a href="/2020/01/15/事项一/" class="media-left">
                 <p class="image is-64x64">
                     <img class="thumbnail" src="/images/thumbnail.svg" alt="技术博客一">
@@ -835,25 +909,6 @@
             </div>
         </article>
         
-        <article class="media">
-            
-            <a href="/2019/12/31/万千思绪/" class="media-left">
-                <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt="思绪">
-                </p>
-            </a>
-            
-            <div class="media-content">
-                <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-12-31T11:50:36.032Z">2019-12-31</time></div>
-                    <a href="/2019/12/31/万千思绪/" class="has-link-black-ter is-size-6">思绪</a>
-                    <p class="is-size-7 is-uppercase">
-                        
-                    </p>
-                </div>
-            </div>
-        </article>
-        
     </div>
 </div>
 
@@ -865,6 +920,17 @@
             Archives
         </h3>
         <ul class="menu-list">
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2020/02/">
+                <span class="level-start">
+                    <span class="level-item">February 2020</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">1</span>
+                </span>
+            </a>
+        </li>
         
         <li>
             <a class="level is-marginless" href="/archives/2020/01/">
@@ -973,6 +1039,25 @@
         
         <article class="media">
             
+            <a href="/2020/02/11/Hexo博客搭建/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Hexo博客搭建">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-02-11T03:43:46.904Z">2020-02-11</time></div>
+                    <a href="/2020/02/11/Hexo博客搭建/" class="has-link-black-ter is-size-6">Hexo博客搭建</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
             <a href="/2020/01/15/事项一/" class="media-left">
                 <p class="image is-64x64">
                     <img class="thumbnail" src="/images/thumbnail.svg" alt="技术博客一">
@@ -1047,25 +1132,6 @@
             </div>
         </article>
         
-        <article class="media">
-            
-            <a href="/2019/12/31/万千思绪/" class="media-left">
-                <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt="思绪">
-                </p>
-            </a>
-            
-            <div class="media-content">
-                <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-12-31T11:50:36.032Z">2019-12-31</time></div>
-                    <a href="/2019/12/31/万千思绪/" class="has-link-black-ter is-size-6">思绪</a>
-                    <p class="is-size-7 is-uppercase">
-                        
-                    </p>
-                </div>
-            </div>
-        </article>
-        
     </div>
 </div>
 
@@ -1077,6 +1143,17 @@
             Archives
         </h3>
         <ul class="menu-list">
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2020/02/">
+                <span class="level-start">
+                    <span class="level-item">February 2020</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">1</span>
+                </span>
+            </a>
+        </li>
         
         <li>
             <a class="level is-marginless" href="/archives/2020/01/">
